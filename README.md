@@ -10,7 +10,7 @@ A **Flask-based web app** that allows users to:
 - Check password strength (uppercase/lowercase/digits)
 - Get feedback via flash messages
 
-✅ [Live demo deployed on Render](https://password-generator.onrender.com)
+✅ [Live demo deployed on Render](https://passwordgenerator-w2ou.onrender.com/)
 
 > 🚀 (Deployed on Render)
 
