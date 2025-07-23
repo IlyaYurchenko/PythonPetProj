@@ -25,18 +25,6 @@ A basic Python bot that simulates a coffee machine or interacts with users in a 
 
 ---
 
-### 🔐 Password Generator
-> `password_generator/`
-
-A **Flask-based web app** that allows users to:
-- Generate random secure passwords (8–16 chars)
-- Check password strength (uppercase/lowercase/digits)
-- Get feedback via flash messages
-
-✅ [Live demo deployed on Render](https://password-generator.onrender.com)
-
----
-
 ### 🛒 Shopping List App
 > `shopping_list_dNinja/shopping_list_proj/`
 
