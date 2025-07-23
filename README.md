@@ -12,7 +12,7 @@ A **Flask-based web app** that allows users to:
 
 ✅ [Live demo deployed on Render](https://password-generator.onrender.com)
 
-> 🚀(Deployed on Render)
+> 🚀 (Deployed on Render)
 
 ---
 
