@@ -2,7 +2,7 @@
 
 A collection of simple but functional **pet projects written in Python**, including web apps made with Flask, Django Ninja, and PostgreSQL.
 
-> 🚀 [Live Demo — Password Generator](https://password-generator.onrender.com)  
+> 🚀 [Live Demo — Password Generator](https://passwordgenerator-w2ou.onrender.com/)  
 > (Deployed on Render)
 
 ---
@@ -13,7 +13,6 @@ A collection of simple but functional **pet projects written in Python**, includ
 > `CoffeeBot/`
 
 A basic Python bot that simulates a coffee machine or interacts with users in a coffee-themed context.  
-🔧 Still in development.
 
 ---
 
