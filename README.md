@@ -2,8 +2,17 @@
 
 A collection of simple but functional **pet projects written in Python**, including web apps made with Flask, Django Ninja, and PostgreSQL.
 
-> 🚀 [Live Demo — Password Generator](https://passwordgenerator-w2ou.onrender.com/)  
-> (Deployed on Render)
+>  ### 🔐 Password Generator
+> `password_generator/`
+
+A **Flask-based web app** that allows users to:
+- Generate random secure passwords (8–16 chars)
+- Check password strength (uppercase/lowercase/digits)
+- Get feedback via flash messages
+
+✅ [Live demo deployed on Render](https://password-generator.onrender.com)
+
+> 🚀(Deployed on Render)
 
 ---
 
