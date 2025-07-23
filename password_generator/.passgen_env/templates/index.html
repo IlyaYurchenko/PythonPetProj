@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+</head>
+<body>
+    <h1>Generate a Password</h1>
+    <form action="/generate" method="post">
+        <label>Password length(8–16):</label>
+        <input type="number" name="length" min="8" max="16" required>
+        <button type="submit">Generate</button>
+    </form>
+
+    <h2>Check Password Strength</h2>
+    <form action="/PasswdCheck" method="post">
+        <input type="text" name="password" placeholder="Enter password to check" required>
+        <button type="submit">Check</button>
+    </form>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <ul>
+          {% for category, message in messages %}
+            <li style="color: {% if category == 'error' %}red{% else %}green{% endif %};">
+              {{ message }}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+</body>
+</html>
